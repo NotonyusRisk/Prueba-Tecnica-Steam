@@ -1,37 +1,123 @@
-body{
-    margin: 50px;
-    padding: 20px;
-    background-color: brown;
+/* Estilos generales para el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-h1, h2{
-    border: 100px;
-    margin-left: 20px;
-    font-size: xx-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* Estilos para el encabezado de la página */
+header {
+    background-color: #313131;
+    color: white;
+    text-align: center;
 }
 
-.image{
-    margin: 10px;
-    padding: 20px;
+/* Estilos para la barra de navegación superior */
+.top-header {
+    background-color: #313131;
+    display: flex;
+    justify-content: right;
 }
 
-.nav-bar{
-    background-color: burlywood;
-    border-left: 100px;
-    border-right: 100px;
+/* Estilos para el menú desplegable */
+.dropdown {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Estilos para la barra de navegación principal */
+.main-navbar {
+    background-color: #ffffff;
     padding: 10px;
+    text-align: center;
+}
+
+.main-navbar img {
+    padding-right: 300px;
+}
+
+.main-navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+/* Estilos para la sección de exposiciones */
+.exposiciones {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.cards {
     display: flex;
     flex-direction: row;
-    flex-direction: initial;
-    justify-content: space-around;
+    justify-content: space-between;
+    border-width: 5px;
 }
 
-.content{
-    background-color: bisque;
+.descripcion-fechas{
+    font-family: 'PFDinTextPro-Thin',sans-serif;
+    font-size: 16px;
+    line-height: 1.15;
+    color: #555555;
 }
 
-.text{
-    margin: 20px;
-    margin-bottom: 20px;
+.descripcion-nombre{
+    font-weight: bold;
+    font-family: 'PFDinTextPro-Bold',sans-serif;
+    line-height: 1.15;
+    text-transform: none;
+    color: #373737;
+}
+
+.descripcion-dueños{
+    font-family: 'PFDinTextPro-Thin',sans-serif;
+    font-size: 16px;
+    line-height: 1.15;
+    color: #555555;
+}
+
+/* Estilos para los enlaces de navegación */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
