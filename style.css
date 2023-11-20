@@ -12,6 +12,16 @@ header {
     text-align: center;
 }
 
+.subtitulo-exposiciones{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'PFDinTextPro-Bold',sans-serif;
+    font-weight: bolder;
+    line-height: 1.15;
+    text-transform: none;
+    color: #373737;
+}
+
 /* Estilos para la barra de navegación superior */
 .top-header {
     background-color: #313131;
@@ -57,7 +67,7 @@ header {
 }
 
 /* Estilos para la sección de exposiciones */
-.exposiciones {
+.exposiciones{
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -91,6 +101,46 @@ header {
     color: #555555;
 }
 
+.btn-inverse {
+  background-color: #373737;
+  border-color: #373737;
+  box-shadow: 0 0 0 transparent;
+}
+
+.btn-inverse{
+    background-repeat: repeat-x;
+}
+
+.btn-inverse{
+  text-shadow: none;
+  color: #ffffff;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid #cccccc;
+}
+
+.btn {
+    margin-top: 10px;
+  padding: 5px 12px 8px;
+  font-weight: bold;
+  background-image: none;
+  border-radius: 4px;
+  border-width: 2px;
+  transition: 0.2s;
+}
+
+.coleccion{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 /* Estilos para los enlaces de navegación */
 nav a {
     color: white;
@@ -109,6 +159,89 @@ nav {
 /* Estilos para las secciones */
 section {
     padding: 20px;
+}
+
+.subtitulo-coleccion{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'PFDinTextPro-Bold',sans-serif;
+    font-weight: bolder;
+    line-height: 1.15;
+    text-transform: none;
+    color: #373737;
+}
+
+.subtitulo-coleccion h2{
+    margin: 0;
+  text-rendering: optimizelegibility;
+}
+
+.imagen-coleccion{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    position: absolute;
+    top: 100px;
+    left: 330px;
+}
+
+.texto h1{
+    font-size: xx-large;
+    color: #ffffff;
+}
+
+.imagen-coleccion img{
+    width: 800px;
+    height: 270px;
+    filter: brightness(0.5);
+}
+
+.miniatura {
+    margin-bottom: 30px;
+}
+
+.miniatura--fondo-imagen {
+    position: relative;
+    min-height: 171px;
+    background-size: cover;
+    background-position: center;
+}
+
+article{
+    display: block;
+    margin-top: 10px;
+}
+
+.actividades{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.cards-informacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-width: 5px;
+}
+
+.actividad-1 img{
+    width: 270px;
+    height: 190px;
+}
+
+.actividad-2 img{
+    width: 270px;
+    height: 190px;
+}
+
+.actividad-3 img{
+    width: 270px;
+    height: 190px;
 }
 
 /* Estilos para el pie de página */
