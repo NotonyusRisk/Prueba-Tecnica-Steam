@@ -335,6 +335,10 @@ article{
     height: 190px;
 }
 
+.btn-bottom{
+    padding-top: 150px;
+}
+
 footer {
     background-color: #333;
     color: white;
