@@ -1,8 +1,18 @@
+/*
+    z-index: movimiento de elementos en eje z
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /* Estilos generales para el cuerpo de la página */
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /* Estilos para el encabezado de la página */
@@ -77,6 +87,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     border-width: 5px;
+    padding-top: 20px;
 }
 
 .descripcion-fechas{
@@ -201,6 +212,10 @@ section {
     filter: brightness(0.5);
 }
 
+.imagen-coleccion{
+    padding-top: 20px;
+}
+
 .miniatura {
     margin-bottom: 30px;
 }
@@ -222,11 +237,47 @@ article{
     padding-right: 50px;
 }
 
+.space{
+    padding-top: 60px;
+}
+
+.subtitulo-actividades{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'PFDinTextPro-Bold',sans-serif;
+    font-weight: bolder;
+    line-height: 1.15;
+    text-transform: none;
+    color: #373737;
+}
+
 .cards-informacion{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     border-width: 5px;
+    padding-top: 20px;
+}
+
+.actividad-1{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 270px;
+    /* height: 190px; */
+}
+
+.actividad-2{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 270px;
+    height: 190px;
+}
+
+.actividad-3{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 270px;
+    height: 190px;
 }
 
 .actividad-1 img{
@@ -244,7 +295,46 @@ article{
     height: 190px;
 }
 
-/* Estilos para el pie de página */
+.actividad-1 .descripcion-fechas{
+    font-size: small;
+}
+
+.actividad-2 .descripcion-fechas{
+    font-size: small;
+}
+
+.actividad-3 .descripcion-fechas{
+    font-size: small;
+}
+
+.visitas-comentadas-section{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.subtitulo-visitas{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'PFDinTextPro-Bold',sans-serif;
+    font-weight: bolder;
+    line-height: 1.15;
+    text-transform: none;
+    color: #373737;
+}
+
+.visita-1, .visita-2, .visita-3, .visita-4{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 270px;
+    height: 190px;
+}
+
+.visita-1 img, .visita-2 img, .visita-3 img, .visita-4 img{
+    width: 270px;
+    height: 190px;
+}
+
 footer {
     background-color: #333;
     color: white;
