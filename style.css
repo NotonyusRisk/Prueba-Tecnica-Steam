@@ -22,16 +22,6 @@ header {
     text-align: center;
 }
 
-.subtitulo-exposiciones{
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: 'PFDinTextPro-Bold',sans-serif;
-    font-weight: bolder;
-    line-height: 1.15;
-    text-transform: none;
-    color: #373737;
-}
-
 /* Estilos para la barra de navegación superior */
 .top-header {
     background-color: #313131;
@@ -76,12 +66,6 @@ header {
     margin: 0 10px;
 }
 
-/* Estilos para la sección de exposiciones */
-.exposiciones{
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
 .cards {
     display: flex;
     flex-direction: row;
@@ -116,40 +100,26 @@ header {
   background-color: #373737;
   border-color: #373737;
   box-shadow: 0 0 0 transparent;
-}
-
-.btn-inverse{
-    background-repeat: repeat-x;
-}
-
-.btn-inverse{
+  background-repeat: repeat-x;
   text-shadow: none;
   color: #ffffff;
 }
 
 .btn {
-  display: inline-block;
-  font-size: 15px;
-  line-height: 1.6;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  border: 1px solid #cccccc;
-}
-
-.btn {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #cccccc;
     margin-top: 10px;
-  padding: 5px 12px 8px;
-  font-weight: bold;
-  background-image: none;
-  border-radius: 4px;
-  border-width: 2px;
-  transition: 0.2s;
-}
-
-.coleccion{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 5px 12px 8px;
+    font-weight: bold;
+    background-image: none;
+    border-radius: 4px;
+    border-width: 2px;
+    transition: 0.2s;
 }
 
 /* Estilos para los enlaces de navegación */
@@ -169,10 +139,10 @@ nav {
 
 /* Estilos para las secciones */
 section {
-    padding: 20px;
+    padding: 60px;
 }
 
-.subtitulo-coleccion{
+h2, h3{
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'PFDinTextPro-Bold',sans-serif;
@@ -180,11 +150,6 @@ section {
     line-height: 1.15;
     text-transform: none;
     color: #373737;
-}
-
-.subtitulo-coleccion h2{
-    margin: 0;
-  text-rendering: optimizelegibility;
 }
 
 .imagen-coleccion{
@@ -193,62 +158,26 @@ section {
     text-align: center;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
+}
+
+.imagen-coleccion img{
+    width: 1000px;
+    height: 220px;
+    filter: brightness(0.5);
 }
 
 .texto{
     position: absolute;
-    top: 100px;
-    left: 330px;
-}
-
-.texto h1{
+    top: 120px;
+    left: 550px;
     font-size: xx-large;
     color: #ffffff;
-}
-
-.imagen-coleccion img{
-    width: 800px;
-    height: 270px;
-    filter: brightness(0.5);
-}
-
-.imagen-coleccion{
-    padding-top: 20px;
-}
-
-.miniatura {
-    margin-bottom: 30px;
-}
-
-.miniatura--fondo-imagen {
-    position: relative;
-    min-height: 171px;
-    background-size: cover;
-    background-position: center;
 }
 
 article{
     display: block;
     margin-top: 10px;
-}
-
-.actividades{
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.space{
-    padding-top: 60px;
-}
-
-.subtitulo-actividades{
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: 'PFDinTextPro-Bold',sans-serif;
-    font-weight: bolder;
-    line-height: 1.15;
-    text-transform: none;
-    color: #373737;
 }
 
 .cards-informacion{
@@ -263,21 +192,18 @@ article{
     padding-left: 20px;
     padding-right: 20px;
     width: 270px;
-    /* height: 190px; */
 }
 
 .actividad-2{
     padding-left: 20px;
     padding-right: 20px;
     width: 270px;
-    height: 190px;
 }
 
 .actividad-3{
     padding-left: 20px;
     padding-right: 20px;
     width: 270px;
-    height: 190px;
 }
 
 .actividad-1 img{
@@ -295,15 +221,7 @@ article{
     height: 190px;
 }
 
-.actividad-1 .descripcion-fechas{
-    font-size: small;
-}
-
-.actividad-2 .descripcion-fechas{
-    font-size: small;
-}
-
-.actividad-3 .descripcion-fechas{
+.actividad-1 .descripcion-fechas, .actividad-2 .descripcion-fechas, .actividad-3 .descripcion-fechas{
     font-size: small;
 }
 
@@ -311,16 +229,6 @@ article{
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
-}
-
-.subtitulo-visitas{
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: 'PFDinTextPro-Bold',sans-serif;
-    font-weight: bolder;
-    line-height: 1.15;
-    text-transform: none;
-    color: #373737;
 }
 
 .visita-1, .visita-2, .visita-3, .visita-4{
