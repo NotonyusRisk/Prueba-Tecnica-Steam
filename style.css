@@ -15,6 +15,11 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 /* Estilos para el encabezado de la página */
 header {
     background-color: #313131;
@@ -72,6 +77,42 @@ header {
     justify-content: space-between;
     border-width: 5px;
     padding-top: 20px;
+}
+
+.descripcion-video-nombre{
+    font-weight: bold;
+    font-family: 'PFDinTextPro-Bold',sans-serif;
+    line-height: 1.15;
+    text-transform: none;
+    color: #373737;
+}
+
+.descripcion2-video{
+    font-family: 'PFDinTextPro-Thin',sans-serif;
+    font-size: 16px;
+    line-height: 1.15;
+    color: #555555;
+}
+
+.lista-footer{
+    font-family: 'PFDinTextPro-Thin',sans-serif;
+    font-size: 16px;
+    line-height: 1.15;
+    color: #b4b4b4;
+    padding-top: 10px;
+}
+
+ul{
+    padding-top: 30px;
+    list-style: none;
+    text-align: left;
+}
+
+.column1 h3, .comlumn2 h3, .column3 h3, .column4 h3{
+    font-family: 'PFDinTextPro-Thin',sans-serif;
+    font-size: 20px;
+    line-height: 1.15;
+    color: #b4b4b4;
 }
 
 .descripcion-fechas{
@@ -246,11 +287,19 @@ article{
 }
 
 .btn-bottom{
-    padding-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.btn-bottom-video{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .videos{
     padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 footer {
@@ -264,7 +313,7 @@ footer {
 }
 
 hr{
-    width: 80%;
+    width: 100%;
 }
 
 .footer1-top{
@@ -276,4 +325,10 @@ hr{
 .footer-span img{
     width: 130px;
     height: 60px;
+}
+
+.footer-secciones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
